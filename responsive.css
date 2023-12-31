@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #795548; 
+}
+h2{
+    /* min-height: 100vh; */
+    font-size: 5vh;
+    font-weight: bold;
+    grid-area: "h2";
+}
+.countdown{
+    grid-area: "count";
+}
+.coming-soon{
+    display: grid;
+    grid-template-areas: 
+    'h2 h2 h2 h2 h2 h2 h2 h2'
+    'count count count count';
+}

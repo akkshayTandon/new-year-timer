@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background-image: url(https://media.istockphoto.com/photos/happy-new-year-2022-picture-id1355894965);
+    background-repeat: no-repeat;
+    background-size: 100vh; */
+    font-family: 'Baloo Bhai',cursive;
+    background-color: #795548;
+    /* background: url(); */
+}
+h2{
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 3rem;
+}
+.coming-soon{
+    min-height: 100vh;
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* color: #795548; */
+    color: whitesmoke;
+}
+.countdown{
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+    text-align: center;
+}
+.day,.hour,.minute,.second{
+    font-size: 3rem;
+}
+/* .waiting{
+    width: 50vh;
+    height: 40vh;
+} */
+@media only screen and (max-width: 300px){
+    .countdown{
+        flex-direction: column;
+    }
+    .day,.hour,.minute,.second{
+    font-size: 1.5rem;
+    }
+    /* .waiting{
+    width: 160px;
+    height: 120px;
+    } */
+}
+@media only screen and (max-width: 240px){
+    .h2{
+        font-size: 2rem;
+        padding: 1rem;
+    }
+}
