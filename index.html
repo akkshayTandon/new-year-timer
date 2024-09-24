@@ -1,41 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
+    <!-- Primary Meta Tags -->
     <title>New Year Timer</title>
+    <meta name="title" content="New Year Timer" />
+    <meta name="description"
+        content="This is a simple new year timer. Count the remaining days to the next year. Made by - Akkshay Tandon." />
+    <meta name="keywords"
+        content="akkshay tandon, new year timer, new year countdown, countdown to new year, akkshay tandon new-year-timer, next year time remaining">
+    <meta name="author" content="Akkshay Tandon">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://akkshaytandon-new-year-timer.netlify.app/" />
+    <meta property="og:title" content="New Year Timer" />
+    <meta property="og:description"
+        content="This is a simple new year timer. Count the remaining days to the next year. Made by - Akkshay Tandon." />
+    <meta property="og:image"
+        content="https://raw.githubusercontent.com/akkshayTandon/new-year-timer/refs/heads/main/new-year-timer.png" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://akkshaytandon-new-year-timer.netlify.app/" />
+    <meta property="twitter:title" content="New Year Timer" />
+    <meta property="twitter:description"
+        content="This is a simple new year timer. Count the remaining days to the next year. Made by - Akkshay Tandon." />
+    <meta property="twitter:image"
+        content="https://raw.githubusercontent.com/akkshayTandon/new-year-timer/refs/heads/main/new-year-timer.png" />
+
+    <!-- Meta Tags Generated with https://metatags.io -->
+    <!-- <title>New Year Timer</title> -->
     <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
     <link href="style.css" rel="stylesheet" type="text/css" />
-	<link rel="shortcut icon" href="new-year-timer.png" type="image/x-icon">
+    <link rel="shortcut icon" href="new-year-timer.png" type="image/x-icon">
     <!-- <link href="responsive.css" rel="stylesheet" type="text/css" /> -->
-  </head>
-  <body>
+</head>
+
+<body>
     <section class="coming-soon">
         <div class="container">
-        <h2>CountDown to 2025 !!</h2>
-        <div class="countdown">
-            <div class="container-day">
-                <h3 class="day">Time</h3>
-                <h3>Day</h3>
-            </div>
-            <div class="container-hour">
-                <h3 class="hour">Time</h3>
-                <h3>Hour</h3>
-            </div>
-            <div class="container-minute">
-                <h3 class="minute">Time</h3>
-                <h3>Minute</h3>
-            </div>
-            <div class="container-second">
-                <h3 class="second">Time</h3>
-                <h3>Second</h3>
+            <h2>CountDown to 2025 !!</h2>
+            <div class="countdown">
+                <div class="container-day">
+                    <h3 class="day">Time</h3>
+                    <h3>Day</h3>
+                </div>
+                <div class="container-hour">
+                    <h3 class="hour">Time</h3>
+                    <h3>Hour</h3>
+                </div>
+                <div class="container-minute">
+                    <h3 class="minute">Time</h3>
+                    <h3>Minute</h3>
+                </div>
+                <div class="container-second">
+                    <h3 class="second">Time</h3>
+                    <h3>Second</h3>
+                </div>
             </div>
         </div>
-        </div>
-        <iframe src="audio/silence.mp3"  allow="autoplay" style="display: none" frameborder="0"></iframe>
-        <audio id="audio" autoplay >
+        <iframe src="audio/silence.mp3" allow="autoplay" style="display: none" frameborder="0"></iframe>
+        <audio id="audio" autoplay>
             <source src="audio/sound.mp3" type="audio/mp3">
         </audio>
-    <script src="script.js"></script>
-  </body>
+        <script src="script.js"></script>
+</body>
+
 </html>
