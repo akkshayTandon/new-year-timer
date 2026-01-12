@@ -7,7 +7,7 @@
     /* Timer Logic */
 let gap;
 const countdown = () => {
-    const countDate = new Date("January 1,2026 00:00:00").getTime();
+    const countDate = new Date("January 1,2027 00:00:00").getTime();
     const now = new Date().getTime();
      gap = countDate - now;
 
